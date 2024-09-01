@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #00a862; /* Green border */
+}
+
+.navbar-left a {
+    margin-right: 20px;
+    color: #00a862; /* Green color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-left a:hover {
+    text-decoration: underline;
+}
+
+.navbar-right .search-bar {
+    padding: 5px;
+    border: 1px solid #00a862;
+    border-radius: 4px;
+    background: #b1f38b;
+    color: black;
+}
+
+.search{
+    padding: 5px;
+    border: 1px solid #00a862;
+    border-radius: 4px;
+    margin-left: 10px;
+    background: #fff;
+    color: black;
+}
